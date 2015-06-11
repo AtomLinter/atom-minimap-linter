@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Minimap bindings for atom-linter",
   "keywords": [],
-  "repository": "https://github.com/nesukun/minimap-linter",
+  "repository": "https://github.com/nesukun/atom-minimap-linter",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
