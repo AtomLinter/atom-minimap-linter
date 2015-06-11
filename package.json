@@ -1,0 +1,22 @@
+{
+  "name": "minimap-linter",
+  "main": "./lib/minimap-linter",
+  "version": "0.0.1",
+  "description": "Minimap bindings for atom-linter",
+  "keywords": [],
+  "repository": "https://github.com/nesukun/minimap-linter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  }
+}
