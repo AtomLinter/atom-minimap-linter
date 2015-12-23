@@ -15,8 +15,5 @@
         "1.0.0": "consumeMinimapServiceV1"
       }
     }
-  },
-  "dependencies": {
-    "event-kit": ">=1.5.0"
   }
 }
