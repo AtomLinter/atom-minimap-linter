@@ -14,7 +14,7 @@
     "comma-spacing": 1,
     "curly": [1, "multi-line"],
     "dot-notation": 1,
-    "global-strict": 1,
+    "strict": 1,
     "key-spacing": 1,
     "no-console": 0,
     "no-extra-bind": 1,
