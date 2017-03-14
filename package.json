@@ -7,7 +7,21 @@
   "repository": "https://github.com/AtomLinter/atom-minimap-linter",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "configSchema": {
+    "markerType": {
+      "type": "string",
+      "default": "line",
+      "enum": [
+        "line",
+        "gutter",
+        "highlight-under",
+        "highlight-over",
+        "highlight-outline"
+      ],
+      "description": "Marker type for linter highlights"
+    }
   },
   "consumedServices": {
     "minimap": {
