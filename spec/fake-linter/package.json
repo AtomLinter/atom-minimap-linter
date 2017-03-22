@@ -1,0 +1,14 @@
+{
+  "name": "linter-minimaptest",
+  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "description": "atom-minimap-linter Test Linter",
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}

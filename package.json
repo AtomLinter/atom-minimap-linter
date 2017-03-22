@@ -1,19 +1,77 @@
 {
   "name": "minimap-linter",
-  "main": "./lib/minimap-linter",
+  "main": "./lib/minimap-linter.js",
   "version": "1.6.0",
-  "description": "Minimap bindings for atom-linter",
-  "keywords": [],
+  "description": "Minimap display for Linter messages",
+  "keywords": [
+    "atom",
+    "minimap",
+    "linter"
+  ],
   "repository": "https://github.com/AtomLinter/atom-minimap-linter",
+  "private": true,
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "configSchema": {
+    "markerType": {
+      "type": "string",
+      "default": "line",
+      "enum": [
+        "line",
+        "gutter",
+        "highlight-under",
+        "highlight-over",
+        "highlight-outline"
+      ],
+      "description": "Marker type for linter highlights"
+    }
   },
   "consumedServices": {
     "minimap": {
       "versions": {
         "1.0.0": "consumeMinimapServiceV1"
       }
+    }
+  },
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideUI"
+      }
+    }
+  },
+  "package-deps": [
+    "linter:2.1.1"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "jasmine-fix": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true
     }
   }
 }
