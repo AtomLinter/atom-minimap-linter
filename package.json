@@ -1,10 +1,15 @@
 {
   "name": "minimap-linter",
-  "main": "./lib/minimap-linter",
+  "main": "./lib/minimap-linter.js",
   "version": "1.6.0",
-  "description": "Minimap bindings for atom-linter",
-  "keywords": [],
+  "description": "Minimap display for Linter messages",
+  "keywords": [
+    "atom",
+    "minimap",
+    "linter"
+  ],
   "repository": "https://github.com/AtomLinter/atom-minimap-linter",
+  "private": true,
   "license": "MIT",
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
