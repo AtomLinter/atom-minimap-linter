@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1
+
+*   Fixed a bug with multiple Editors open to the same file not showing the
+    correct highlighting.
+
 ## 2.0.0
 
 *   Rewrite to handle Linter v2, now works as a Linter "UI" instead of hooking

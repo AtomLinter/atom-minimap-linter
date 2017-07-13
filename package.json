@@ -1,7 +1,7 @@
 {
   "name": "minimap-linter",
   "main": "./lib/minimap-linter.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Minimap display for Linter messages",
   "keywords": [
     "atom",
