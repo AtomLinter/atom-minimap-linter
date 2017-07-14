@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2
+
+*   Guard against minimap losing its association with a `TextEditor`.
+
 ## 2.0.1
 
 *   Fixed a bug with multiple Editors open to the same file not showing the
