@@ -37,6 +37,11 @@
       "versions": {
         "1.0.0": "consumeMinimapServiceV1"
       }
+    },
+    "diagnostics-store": {
+      "versions": {
+        "0.3.0": "consumeDiagnosticUpdates"
+      }
     }
   },
   "providedServices": {
