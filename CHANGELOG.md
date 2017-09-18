@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0
+
+*   Add support for `diagnostics-store` messages (`atom-ide-ui`) ([#23][])
+*   Fix a bug where messages could get "stuck" ([#24][])
+
+[#23]: https://github.com/AtomLinter/atom-minimap-linter/pull/23
+[#24]: https://github.com/AtomLinter/atom-minimap-linter/pull/24
+
 ## 2.0.2
 
 *   Guard against minimap losing its association with a `TextEditor`.
