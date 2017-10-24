@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.2
+
+*   Update message format for `atom-ide-ui@0.5.2` ([#30][])
+
+[#30]: https://github.com/AtomLinter/atom-minimap-linter/pull/30
+
 ## 2.1.1
 
 *   Better validation of messages ([#26][])
