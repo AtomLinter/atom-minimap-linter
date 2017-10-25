@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.3
+
+*   Clarify the README a bit
+
 ## 2.1.2
 
 *   Update message format for `atom-ide-ui@0.5.2` ([#30][])
