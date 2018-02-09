@@ -16,11 +16,11 @@ describe('MinimapLinterBinding', () => {
     workspaceElement = atom.views.getView(atom.workspace);
     jasmine.attachToDOM(workspaceElement);
 
-    // Load the fake linter. Note: Non-public API!
-    atom.packages.loadPackage(fakeLinter);
-    // Activate Linter and the fake linter provider
+    // Activate Linter
     await atom.packages.activatePackage('linter');
-    await atom.packages.activatePackage('linter-minimaptest');
+    // Load and activate the fake linter.
+    // NOTE: Somewhat Non-public API, as this isn't _supposed_ to take a path!
+    await atom.packages.activatePackage(fakeLinter);
 
     // Open an editor on the test file
     const editor = await atom.workspace.open(testPath);
