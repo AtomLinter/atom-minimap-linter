@@ -30,7 +30,7 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for \severity:Error`` highlights"
+      "description": "Marker type for `severity:Error` highlights"
     },
     "markerTypeWarning": {
       "type": "string",
@@ -43,7 +43,7 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for \severity:Warning`` highlights"
+      "description": "Marker type for `severity:Warning` highlights"
     },
     "markerTypeInfo": {
       "type": "string",
@@ -56,7 +56,7 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for \severity:Info`` highlights"
+      "description": "Marker type for `severity:Info` highlights"
     }
   },
   "consumedServices": {
