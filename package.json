@@ -19,7 +19,7 @@
     "test": "apm test"
   },
   "configSchema": {
-    "markerType": {
+    "markerTypeError": {
       "type": "string",
       "default": "line",
       "enum": [
@@ -29,7 +29,31 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for linter highlights"
+      "description": "Marker type for severity:Error highlights"
+    },
+    "markerTypeWarning": {
+      "type": "string",
+      "default": "line",
+      "enum": [
+        "line",
+        "gutter",
+        "highlight-under",
+        "highlight-over",
+        "highlight-outline"
+      ],
+      "description": "Marker type for severity:Warning highlights"
+    },
+    "markerTypeInfo": {
+      "type": "string",
+      "default": "gutter",
+      "enum": [
+        "line",
+        "gutter",
+        "highlight-under",
+        "highlight-over",
+        "highlight-outline"
+      ],
+      "description": "Marker type for severity:Info highlights"
     }
   },
   "consumedServices": {
