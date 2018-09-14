@@ -90,7 +90,7 @@
       ":preserveSemverRanges"
     ],
     "ignorePaths": [
-      "spec/*"
+      "spec/**"
     ]
   }
 }
