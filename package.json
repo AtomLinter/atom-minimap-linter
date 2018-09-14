@@ -30,7 +30,7 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for `severity:Error` highlights"
+      "description": "Marker type for error highlights"
     },
     "markerTypeWarning": {
       "type": "string",
@@ -43,11 +43,11 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for `severity:Warning` highlights"
+      "description": "Marker type for warning highlights"
     },
     "markerTypeInfo": {
       "type": "string",
-      "default": "gutter",
+      "default": "line",
       "enum": [
         "off",
         "line",
@@ -56,7 +56,7 @@
         "highlight-over",
         "highlight-outline"
       ],
-      "description": "Marker type for `severity:Info` highlights"
+      "description": "Marker type for info highlights"
     }
   },
   "consumedServices": {
