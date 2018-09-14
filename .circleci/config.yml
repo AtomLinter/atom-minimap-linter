@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: /tmp/project
   environment:
-    APM_TEST_PACKAGES: "minimap linter linter-ui-default busy-signal intentions"
+    APM_TEST_PACKAGES: "minimap linter"
   docker:
     - image: arcanemagus/atom-docker-ci:stable
   steps:
@@ -23,13 +23,16 @@ defaults: &defaults
         name: Cleaning package
         command: ${APM_SCRIPT_PATH} clean
     - run:
-        name: Package dependencies
+        name: Package APM package dependencies
         command: |
           if [ -n "${APM_TEST_PACKAGES}" ]; then
             for pack in ${APM_TEST_PACKAGES}; do
             ${APM_SCRIPT_PATH} install "${pack}"
             done
           fi;
+    - run:
+        name: Package dependencies
+        command: ${APM_SCRIPT_PATH} install
     - run:
         name: Package specs
         command: ${ATOM_SCRIPT_PATH} --test spec
