@@ -94,7 +94,9 @@
     ],
     "packageRules": [
       {
-        "packagePatterns": ["^eslint"],
+        "packagePatterns": [
+          "^eslint"
+        ],
         "groupName": "ESLint packages"
       }
     ]
