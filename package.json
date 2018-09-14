@@ -91,6 +91,12 @@
     ],
     "ignorePaths": [
       "spec/**"
+    ],
+    "packageRules": [
+      {
+        "packagePatterns": ["^eslint"],
+        "groupName": "ESLint packages"
+      }
     ]
   }
 }
