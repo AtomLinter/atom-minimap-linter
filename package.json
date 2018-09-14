@@ -83,5 +83,14 @@
       "node": true,
       "browser": true
     }
+  },
+  "renovate": {
+    "extends": [
+      "config:base",
+      ":preserveSemverRanges"
+    ],
+    "ignorePaths": [
+      "spec/*"
+    ]
   }
 }
