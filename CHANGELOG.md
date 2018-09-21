@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.0
+
+*   Allow severity-based marker setting ([#38][])
+
+[#38]: https://github.com/AtomLinter/atom-minimap-linter/pull/38
+
 ## 2.1.3
 
 *   Clarify the README a bit
