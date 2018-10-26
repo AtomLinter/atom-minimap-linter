@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.1
+
+*   Fixed TypeError when changing settings ([#47][])
+
+[#47]: https://github.com/AtomLinter/atom-minimap-linter/pull/47
+
 ## 2.2.0
 
 *   Allow severity-based marker setting ([#38][])
