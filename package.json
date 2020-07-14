@@ -78,6 +78,9 @@
       }
     }
   },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
   "package-deps": [
     "linter:2.1.1"
   ],
