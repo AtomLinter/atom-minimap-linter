@@ -79,7 +79,7 @@
     }
   },
   "package-deps": [
-    "linter:2.1.1"
+    "linter:3.0.0"
   ],
   "dependencies": {
     "atom-package-deps": "5.1.0"
