@@ -79,15 +79,21 @@
     }
   },
   "package-deps": [
-    "linter:3.0.0"
+    {
+      "name": "minimap"
+    },
+    {
+      "name": "linter",
+      "minimumVersion": "2.1.1"
+    }
   ],
   "dependencies": {
-    "atom-package-deps": "5.1.0"
+    "atom-package-deps": "7.0.2"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
-    "eslint-config-airbnb-base": "13.2.0",
-    "eslint-plugin-import": "2.20.1",
+    "eslint": "7.12.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
     "jasmine-fix": "1.3.1"
   },
   "eslintConfig": {
