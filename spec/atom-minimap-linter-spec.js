@@ -16,8 +16,9 @@ describe('MinimapLinterBinding', () => {
     workspaceElement = atom.views.getView(atom.workspace);
     jasmine.attachToDOM(workspaceElement);
 
-    // Activate activation hook
+    // Trigger deferred activation
     atom.packages.triggerDeferredActivationHooks();
+    // Activate activation hook
     atom.packages.triggerActivationHook('core:loaded-shell-environment');
 
     // Activate Linter
