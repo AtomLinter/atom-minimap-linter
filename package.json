@@ -79,9 +79,14 @@
     }
   },
   "package-deps": [
-    {
-      "name": "minimap"
-    },
+    [
+      {
+        "name": "minimap-plus"
+      },
+      {
+        "name": "minimap"
+      }
+    ],
     {
       "name": "linter",
       "minimumVersion": "2.1.1"
