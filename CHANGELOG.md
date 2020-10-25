@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.2.2
+
+*   Add an activation hook to delay package loading till Atom is ready ([#80][])
+*   Fix messages not being updated properly ([#82][])
+*   Add `minimap-plus` to the options for `minimap` providers ([#86][])
+*   Many dependency updates
+
+[#80]: https://github.com/AtomLinter/atom-minimap-linter/pull/80
+[#82]: https://github.com/AtomLinter/atom-minimap-linter/pull/82
+[#86]: https://github.com/AtomLinter/atom-minimap-linter/pull/86
+
 ## 2.2.1
 
 *   Fixed TypeError when changing settings ([#47][])
