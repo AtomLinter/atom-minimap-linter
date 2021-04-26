@@ -96,7 +96,7 @@
     }
   ],
   "dependencies": {
-    "atom-package-deps": "7.0.2"
+    "atom-package-deps": "7.2.3"
   },
   "devDependencies": {
     "eslint": "7.12.0",
