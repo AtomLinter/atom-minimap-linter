@@ -48,7 +48,7 @@ describe('MinimapLinterBinding', () => {
       await wait(500);
     });
     it('creates decoration for the linter markers', () => {
-      expect(Object.keys(minimap.decorationsByMarkerId).length).toEqual(1);
+      expect(minimap.getDecorations().length).toEqual(1);
     });
   });
 });
